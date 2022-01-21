@@ -5,3 +5,12 @@
     (입력예시) N : 10
     (출력예시) 합계 : 55
 '''
+
+N = input("정수 : ")
+N = int(N)
+sum = 0
+
+for i in range(1,N+1):
+    sum = sum + i
+    
+print("합계 : {}".format(sum))
