@@ -3,7 +3,7 @@
 
 1. enumerate() 함수
   : 리스트와 함께 사용하여,  
-    (index, 튜플)의 형태로 반환하는 함수
+    (index, 요소)의 튜플의 형태로 반환하는 함수
     
   ex) for item in enumerate( ['a','b','c'] )
         print(item)
